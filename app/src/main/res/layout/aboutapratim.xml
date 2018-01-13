@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/apratim"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="APRATIM"
+                android:textColor="#00bf8f"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:typeface="normal"
+                android:gravity="center"
+                android:textSize="35dp"
+                android:paddingTop="1dp"
+                android:paddingBottom="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The phoenix of APRATIM has risen again and this time around we promise to make Apratim bigger and better. Chandigarh College Of Engineering and Technology awaits your presence in the colossal and magical world that we'll weave together for you to admire. This 9th and 10th October, be ready for a spell which will take you on a hayride in our spooky world."
+                android:textColor="#000000"
+                android:paddingTop="10dp"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="2dp"
+                android:fontFamily="sans-serif-condensed"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="EVENT CAPTION"
+                android:textSize="25dp"
+                android:textColor="#00bf8f"
+                android:paddingTop="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="2dp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                android:fontFamily="sans-serif-condensed"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Musical Fantasy"
+                android:textSize="23dp"
+                android:textColor="#000000"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="2dp"
+                android:fontFamily="sans-serif-condensed"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="EVENT THEME"
+                android:textSize="25dp"
+                android:textColor="#00bf8f"
+                android:paddingTop="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="2dp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                android:fontFamily="sans-serif-condensed"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Beti bachao beti padhao"
+                android:textSize="23dp"
+                android:textColor="#000000"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="2dp"
+                android:fontFamily="sans-serif-condensed"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ACCOMODATION"
+                android:textSize="25dp"
+                android:textColor="#00bf8f"
+                android:paddingTop="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="2dp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                android:fontFamily="sans-serif-condensed"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Free of cost.First come first serve.Register before 30th sept."
+                android:textSize="23dp"
+                android:textColor="#000000"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="2dp"
+                android:paddingBottom="10dp"
+                android:fontFamily="sans-serif-condensed"/>
+            </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>

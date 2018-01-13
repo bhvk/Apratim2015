@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/roundcorner"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:radius="5dp">
+
+
+    <TextView
+        android:id="@+id/eventname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingLeft="15dp"
+        android:paddingTop="2dp"
+        android:text="Skit"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#00bf8f"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eventname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="2dp"
+        android:layout_toRightOf="@+id/venue"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingLeft="20dp"
+        android:paddingTop="4dp"
+        android:text="12pm-1:30pm"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#828282"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/venue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/time"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingLeft="15dp"
+        android:paddingTop="4dp"
+        android:text="MPH"
+        android:textColor="#828282"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+</RelativeLayout>

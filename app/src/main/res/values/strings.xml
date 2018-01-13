@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Apratim2015</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="sponsors">Sponsors</string>
+    <string name="title_activity_sponsors">Our Sponsors</string>
+    <string name="about">About College</string>
+
+</resources>

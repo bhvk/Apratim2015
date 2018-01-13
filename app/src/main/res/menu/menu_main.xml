@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/item1" android:title="About Apratim"></item>
+    <item android:id="@+id/item2" android:title="Visit Website"></item>
+    <item android:id="@+id/item3" android:title="Apratim'15 team"></item>
+    <item android:id="@+id/item4" android:title="Developers"></item>
+
+    <item
+        android:id="@+id/menu_sponsors"
+        android:icon="@drawable/ic_sponsors"
+        android:orderInCategory="200"
+        android:title="@string/sponsors"
+        app:showAsAction="ifRoom"/>
+
+</menu>

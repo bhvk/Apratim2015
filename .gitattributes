@@ -1,2 +1,2 @@
 app/src/main/java/fest/ccet/com/apratim/* linguist-vendored
-*.xml linguist-language=Java
+app/src/main/res/layout/*.xml linguist-language=Java
